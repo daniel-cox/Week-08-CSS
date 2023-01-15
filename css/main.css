@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(223, 223, 223);
+    margin: 0;
+
+}
+
+/* Start -  styling for the navigation*/
+#navigation{
+    background-color: #d0d0d0;
+    padding: 10px;
+    text-align: center;
+    box-shadow:1px 1px 10px #0f0f0f;
+}
+.navItems{
+    display: inline;
+}
+
+.navItems a {
+    color: #0f0f0f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+.navItems a:hover{
+    color: #0d4d8d
+}
+.navItems a:visited{
+    color: #c75808;
+}
+/* End - styling for the navigation*/
+
+/* Start - Logo styling*/
+.mainLogo{
+    display: block;
+    margin: 0 auto;
+}
+/* End - Logo styling*/
+
+/*Start - styling for main content*/
+
+.aboutUsContainer{
+    background-color: #f3f3f3;
+    padding:20px;
+    
+}
+
+h1{
+    color:#0d4d8d
+}
+p{
+    color:#041c34
+}
+h1,p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-style: none;
+    border-bottom: 1px solid #041c34;
+    padding: 10px;
+}
+
+.inputSubmit{
+    background-color: #0d4d8d;
+    color:#fff;
+    width: 10%;
+}
+
+.inputSubmit:hover{
+    background-color: #083562;
+}
+
+table{
+    margin: 0 auto;
+}
+
+th{    background-color: #d0d0d0}
+
+tr,th{
+    text-align: center;
+    padding: 20px;
+}
+/*End - styling for main content*/
+
+/*Start - Styling for About Page*/
+.aboutUsContainer{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    color:#0d4d8d;
+    text-align: center;
+
+}
+
+ul{
+    margin: 0 auto;
+    text-align: left;
+    width: 50%;
+}
+
+ul li{
+}
+/*End - Styling for Portfolio Page*/
+
+
+/*Start - Styling for Portfolio Page*/
+h3{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+s{
+    color: #990000;
+}
+/*End - Styling for Portfolio Page*/
