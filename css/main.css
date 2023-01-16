@@ -9,7 +9,7 @@ body{
 
 /* Start -  styling for the navigation*/
 #navigation{
-    background-color: #d0d0d0;
+    background-color: #0b5187;
     box-shadow:1px 1px 10px #0f0f0f;
     padding: 10px;
     text-align: center;
@@ -19,16 +19,16 @@ body{
 }
 
 .navItems a {
-    color: #0f0f0f;
+    color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
     text-decoration: none;
 }
 .navItems a:hover{
-    color: #0d4d8d
+    color: #dddddd
 }
 .navItems a:visited{
-    color: #c75808;
+    color: #36bd00;
 }
 /* End - styling for the navigation*/
 
