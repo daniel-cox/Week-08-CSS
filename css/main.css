@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(255, 255, 255);
     margin: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/circles.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  
 
 }
 
@@ -106,7 +108,7 @@ ul{
 
 ul li{
 }
-/*End - Styling for Portfolio Page*/
+/*End - Styling for About Page*/
 
 
 /*Start - Styling for Portfolio Page*/
