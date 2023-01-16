@@ -1,7 +1,8 @@
 body{
     background-color: rgb(255, 255, 255);
-    margin: 0;
     background-image: url("https://www.transparenttextures.com/patterns/circles.png");
+    margin: 0;
+
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  
 
 }
@@ -9,9 +10,9 @@ body{
 /* Start -  styling for the navigation*/
 #navigation{
     background-color: #d0d0d0;
+    box-shadow:1px 1px 10px #0f0f0f;
     padding: 10px;
     text-align: center;
-    box-shadow:1px 1px 10px #0f0f0f;
 }
 .navItems{
     display: inline;
@@ -58,12 +59,12 @@ h1,p{
 }
 
 input{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
     border-style: none;
     border-bottom: 1px solid #041c34;
+    display: block;
+    margin: 0 auto;
     padding: 10px;
+    text-align: center;
 }
 
 .inputSubmit{
@@ -83,15 +84,15 @@ table{
 th{    background-color: #d0d0d0}
 
 tr,th{
-    text-align: center;
     padding: 20px;
+    text-align: center;
 }
 /*End - styling for main content*/
 
 /*Start - Styling for About Page*/
 .aboutUsContainer{
-    max-width: 80%;
     margin: 0 auto;
+    max-width: 80%;
 }
 
 h2{
