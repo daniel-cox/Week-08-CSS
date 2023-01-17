@@ -3,7 +3,6 @@ body{
     background-image: url("https://www.transparenttextures.com/patterns/circles.png");
     margin: 0;
 
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  
 
 }
 
@@ -25,7 +24,7 @@ body{
     text-decoration: none;
 }
 .navItems a:hover{
-    color: #dddddd
+    color: #dddddd;
 }
 .navItems a:visited{
     color: #6D9F71;
@@ -41,11 +40,6 @@ body{
 
 /*Start - styling for main content*/
 
-.aboutUsContainer{
-    background-color: #f3f3f3;
-    padding:20px;
-    
-}
 
 h1{
     color:#0d4d8d
@@ -95,9 +89,12 @@ tr,th{
 /*End - styling for main content*/
 
 /*Start - Styling for About Page*/
+
 .aboutUsContainer{
+    background-color: #f3f3f3;
     margin: 0 auto;
     max-width: 80%;
+    padding:20px;
 }
 
 h2{
