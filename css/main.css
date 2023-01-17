@@ -19,7 +19,7 @@ body{
 }
 
 .navItems a {
-    color: #ffffff;
+    color: #F2F4F3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
     text-decoration: none;
@@ -28,7 +28,7 @@ body{
     color: #dddddd
 }
 .navItems a:visited{
-    color: #36bd00;
+    color: #6D9F71;
 }
 /* End - styling for the navigation*/
 
@@ -81,7 +81,12 @@ table{
     margin: 0 auto;
 }
 
-th{    background-color: #d0d0d0}
+th:nth-child(even) {
+    background-color: #497dbd;
+}
+th:nth-child(odd) {
+    background-color: #24548f;
+}
 
 tr,th{
     padding: 20px;
